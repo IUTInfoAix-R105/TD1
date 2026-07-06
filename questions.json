@@ -43,8 +43,8 @@
     "specVersion": 1
   },
   "generated": {
-    "at": "2026-07-06T04:46:34Z",
-    "documentsVersion": "886293c"
+    "at": "2026-07-06T04:51:44Z",
+    "documentsVersion": "c3d885c"
   },
   "sections": [
     {
@@ -287,11 +287,11 @@
           "num": "14",
           "statement": "Quels sont, à l'exception des pilotes nommés Durand, les noms de pilotes en service ?",
           "expectedCols": 1,
-          "expectedRows": 6,
-          "expectedLabel": "1 attribut, 6 tuples",
+          "expectedRows": 5,
+          "expectedLabel": "1 attribut, 5 tuples",
           "orderSensitive": false,
           "hashesSorted": [
-            "5c108eeb3bed81b7f50cecf1f3c151b1b0beda92ac30b304bb8ba1aaf6c6e70a"
+            "1130343b0ec3b07d3fa79f4aa5f837d27eaf7d803248d4b6d6f4ac763ecd47b7"
           ],
           "hashOrdered": null,
           "difficulty": null,
