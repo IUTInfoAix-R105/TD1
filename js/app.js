@@ -79,6 +79,17 @@ function renderHeader(root) {
 // ── Panneau schéma ──────────────────────────────────────────────────────────
 
 async function renderSchemaPanel(root) {
+  const rel = questions.database && questions.database.relationalSchema;
+  // Mode algèbre : afficher le schéma relationnel (notation du cours), pas le SQL.
+  if (mode === "algebra" && Array.isArray(rel) && rel.length) {
+    const details = el("details", { class: "schema-panel", attrs: { open: "" } });
+    details.appendChild(el("summary", { text: "Schéma relationnel" }));
+    const box = el("div", { class: "schema-rel" });
+    for (const line of rel) box.appendChild(el("div", { class: "schema-rel-line", html: line }));
+    details.appendChild(box);
+    root.appendChild(details);
+    return;
+  }
   const details = el("details", { class: "schema-panel" });
   details.appendChild(el("summary", { text: "Schéma de la base de données" }));
   const pre = el("pre", { class: "schema-sql", text: "Chargement…" });

@@ -31,15 +31,20 @@
         "heureDep",
         "heureArr"
       ]
-    }
+    },
+    "relationalSchema": [
+      "<strong>Pilote</strong> (<u>numPil</u>, nomPil, adresse, salaire)",
+      "<strong>Avion</strong> (<u>numAv</u>, nomAv, capacite, localisation)",
+      "<strong>Vol</strong> (<u>numVol</u>, <em>numPil#</em>, <em>numAv#</em>, villeDep, villeArr, heureDep, heureArr)"
+    ]
   },
   "canon": {
     "algo": "sha256",
     "specVersion": 1
   },
   "generated": {
-    "at": "2026-07-06T04:41:42Z",
-    "documentsVersion": "3017d46"
+    "at": "2026-07-06T04:46:34Z",
+    "documentsVersion": "886293c"
   },
   "sections": [
     {
