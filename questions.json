@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "tdId": "r1.05-td1-algebre",
-  "tdLabel": "R1.05 — TD1 (algèbre)",
+  "tdLabel": "R1.05 - TD1 (algèbre)",
   "title": "Requêtes avec le langage algébrique",
   "intro": "Formulez, en algèbre relationnelle, sur la base de données exemple, les requêtes d'interrogation suivantes.",
   "mode": "algebra",
@@ -43,8 +43,8 @@
     "specVersion": 1
   },
   "generated": {
-    "at": "2026-07-06T06:11:11Z",
-    "documentsVersion": "9fa7388"
+    "at": "2026-07-06T09:02:29Z",
+    "documentsVersion": "944ebab"
   },
   "sections": [
     {
